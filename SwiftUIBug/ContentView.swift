@@ -19,6 +19,9 @@ struct ContentView: View {
                 NavigationLink(destination: AlertView(), label: {
                     card(title: "2. Alert 弹出 bug", desc: "在同一个 View 上不能添加多个 alert ，当有多个的时候只会有一个 alert 生效")
                 })
+                NavigationLink(destination: List_Button(), label: {
+                    card(title: "3. List 中 Button 点击 bug", desc: "List 一个 Cell 如果存在多个 Button，会触发所有 Button 的点击事件")
+                })
             }
             .padding(.top, 25)
             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)

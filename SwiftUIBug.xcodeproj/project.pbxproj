@@ -17,6 +17,7 @@
 		429D81F623AF5244000230DD /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81F523AF5244000230DD /* Tab.swift */; };
 		429D81FA23AF5C95000230DD /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81F923AF5C95000230DD /* ViewExt.swift */; };
 		429D81FC23AF6031000230DD /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81FB23AF6031000230DD /* AlertView.swift */; };
+		429D820023AF671E000230DD /* List+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81FF23AF671E000230DD /* List+Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		429D81F923AF5C95000230DD /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
 		429D81FB23AF6031000230DD /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		429D81FD23AF6566000230DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		429D81FF23AF671E000230DD /* List+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List+Button.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		429D81F123AF51B7000230DD /* Bugs */ = {
 			isa = PBXGroup;
 			children = (
+				429D81FE23AF6703000230DD /* List+Button */,
 				429D81F423AF522F000230DD /* TabLayout */,
 				429D81F723AF59DF000230DD /* Alert */,
 			);
@@ -119,6 +122,14 @@
 				429D81F923AF5C95000230DD /* ViewExt.swift */,
 			);
 			path = Exts;
+			sourceTree = "<group>";
+		};
+		429D81FE23AF6703000230DD /* List+Button */ = {
+			isa = PBXGroup;
+			children = (
+				429D81FF23AF671E000230DD /* List+Button.swift */,
+			);
+			path = "List+Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				429D81F623AF5244000230DD /* Tab.swift in Sources */,
 				429D81FA23AF5C95000230DD /* ViewExt.swift in Sources */,
 				429D81F323AF51CE000230DD /* TabLayout.swift in Sources */,
+				429D820023AF671E000230DD /* List+Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
