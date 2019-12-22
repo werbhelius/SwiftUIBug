@@ -15,6 +15,8 @@
 		429D81EA23AF5197000230DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429D81E823AF5197000230DD /* LaunchScreen.storyboard */; };
 		429D81F323AF51CE000230DD /* TabLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81F223AF51CE000230DD /* TabLayout.swift */; };
 		429D81F623AF5244000230DD /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81F523AF5244000230DD /* Tab.swift */; };
+		429D81FA23AF5C95000230DD /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81F923AF5C95000230DD /* ViewExt.swift */; };
+		429D81FC23AF6031000230DD /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429D81FB23AF6031000230DD /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		429D81EB23AF5197000230DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		429D81F223AF51CE000230DD /* TabLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLayout.swift; sourceTree = "<group>"; };
 		429D81F523AF5244000230DD /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		429D81F923AF5C95000230DD /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		429D81FB23AF6031000230DD /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		429D81DC23AF5192000230DD /* SwiftUIBug */ = {
 			isa = PBXGroup;
 			children = (
+				429D81F823AF5C87000230DD /* Exts */,
 				429D81F123AF51B7000230DD /* Bugs */,
 				429D81DD23AF5192000230DD /* AppDelegate.swift */,
 				429D81DF23AF5192000230DD /* SceneDelegate.swift */,
@@ -84,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				429D81F423AF522F000230DD /* TabLayout */,
+				429D81F723AF59DF000230DD /* Alert */,
 			);
 			path = Bugs;
 			sourceTree = "<group>";
@@ -95,6 +101,22 @@
 				429D81F523AF5244000230DD /* Tab.swift */,
 			);
 			path = TabLayout;
+			sourceTree = "<group>";
+		};
+		429D81F723AF59DF000230DD /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				429D81FB23AF6031000230DD /* AlertView.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		429D81F823AF5C87000230DD /* Exts */ = {
+			isa = PBXGroup;
+			children = (
+				429D81F923AF5C95000230DD /* ViewExt.swift */,
+			);
+			path = Exts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +192,10 @@
 			files = (
 				429D81DE23AF5192000230DD /* AppDelegate.swift in Sources */,
 				429D81E023AF5192000230DD /* SceneDelegate.swift in Sources */,
+				429D81FC23AF6031000230DD /* AlertView.swift in Sources */,
 				429D81E223AF5192000230DD /* ContentView.swift in Sources */,
 				429D81F623AF5244000230DD /* Tab.swift in Sources */,
+				429D81FA23AF5C95000230DD /* ViewExt.swift in Sources */,
 				429D81F323AF51CE000230DD /* TabLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
